@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  sui-cli:
+    image: senseinode/sui-cli:latest
+    container_name: sui-cli
+    tty: true
+    volumes:
+      - ./data:/root/.sui
