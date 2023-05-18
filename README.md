@@ -5,7 +5,7 @@ The purpose of this repo is to provide an automatic method of updating validator
 ## Requirements
 
 1. Run the docker container by using `docker-compose up -d`
-2. Set up an account on the cli, that account should have ownership of the `0x3::validator_cap::UnverifiedValidatorOperationCap` and some SUI coin objects for being able to pay for gas fees.
+2. Set up an account on the cli, that account should have ownership of the `0x3::validator_cap::UnverifiedValidatorOperationCap` object of your validator and some SUI coin objects for being able to pay for gas update transaction gas fees.
 
 ## Script
 
