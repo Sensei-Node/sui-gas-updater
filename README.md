@@ -2,6 +2,8 @@
 
 The purpose of this repo is to provide an automatic method of updating validators gas price using the average of all the other validators gas price. It is intended to be used with a cronjob run every 3 days for instance.
 
+It is important to notice that the gas calculation should take into consideration other factors like network congestion and SUI's price, so this tool should only be looked upon as a reference or as a quick patch while your validator decides the best method to implement. 
+
 ## Requirements
 
 1. Run the docker container by using `docker-compose up -d`
